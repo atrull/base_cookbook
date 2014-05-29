@@ -1,6 +1,8 @@
 
 user "alextrull" do
-  shell     "/bin/bash"
+  shell "/bin/bash"
+  home "/home/alextrull"
+  supports :manage_home => true
 end
 
 directory "/home/alextrull/.ssh" do
