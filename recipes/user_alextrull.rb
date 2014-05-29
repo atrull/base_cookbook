@@ -17,8 +17,3 @@ file "/home/alextrull/.ssh/authorized_keys" do
   group "alextrull"
 end
 
-file "/etc/sudoers.d/alextrull" do
-  content "alextrull ALL=(ALL) NOPASSWD: ALL"
-  mode    0440
-end
-
