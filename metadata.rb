@@ -12,4 +12,4 @@ end
 
 depends "sudo"
 depends "chef-client"
-depends "7zip"
+depends "7-zip"

@@ -4,7 +4,7 @@ when "ubuntu","debian","rhel","suse"
   include_recipe "sudo"
   include_recipe "base::user_alextrull"
 when "windows"
-  include_recipe "7zip"
+  include_recipe "7-zip"
 end
 
 include_recipe "chef-client"
